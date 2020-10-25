@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+
 body {
     background-color: dimgray;
     color: lightyellow;
@@ -8,5 +9,25 @@ body {
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 4.5em;
+}
+
+.page {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:1000px;
+    max-height: 1000px;
+}
+
+.page_1{
+    background-image: url('dof-city-night.jpg');
+}
+
+.page_2 {
+    background-image: url('city-night2.jpg');
+}
+section {
+    margin: 0px 0px 0px 155px;
+    padding: 60px 0 0 0;
 }
