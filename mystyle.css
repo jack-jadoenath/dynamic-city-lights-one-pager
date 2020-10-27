@@ -10,11 +10,17 @@ body {
 
 .title {
     font-size: 4.5em;
+    color:#dbad58;
+}
+
+.DCL_img {
+    float: right;
+    padding: 0 220px 0 0;
 }
 
 .page {
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: round;
+    background-position: top;
     width: 100%;
     height:1000px;
     max-height: 1000px;
@@ -27,7 +33,56 @@ body {
 .page_2 {
     background-image: url('city-night2.jpg');
 }
+
+.page_4 {
+    background-image: url('city-night4.jpg');
+}
+
+.page_5 {
+    background-image: url('city-night5.jpg');
+}
+
+.page_6 {
+        background-image: url('city-night6.jpg');
+}
+
+.page_7 {
+    background-image: url('DCL2.jpg');
+}
+
+.page_8 {
+    background-image: url('DCL3.jpg');
+}
+
+.page_9 {
+    background-image: url('light-pollution.jpg');
+}
+
 section {
     margin: 0px 0px 0px 155px;
     padding: 60px 0 0 0;
 }
+
+.article_1 {
+    margin: 3em 3em 0px 0;
+padding: 0.5em;
+font-size: 2em;
+background-color: #6464644f;
+}
+
+.article_2 {
+    margin: 3em 3em 0px 0;
+padding: 0.5em;
+font-size: 2em;
+background-color: #6464644f;
+float: left;
+}
+
+.article_3 {
+    margin: 5em 3em 0px 0;
+padding: 0.5em;
+font-size: 1.5em;
+background-color: #6464644f;
+float: left;
+}
+
